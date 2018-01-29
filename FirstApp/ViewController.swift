@@ -10,12 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  @IBOutlet weak var textField: UITextField!
+  
+  @IBOutlet weak var label: UILabel!
+  
+  @IBAction func ButtonClicked(_ sender: Any) {
+    if let name = textField.text {
+      label.text = "Hello " + name
+    }
+  }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
-    
-    let thing = "Billy Bob"
-    print("Hello \(thing)")
   }
 
   override func didReceiveMemoryWarning() {
