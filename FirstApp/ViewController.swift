@@ -9,14 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+  
   @IBOutlet weak var textField: UITextField!
   
   @IBOutlet weak var label: UILabel!
   
   @IBAction func ButtonClicked(_ sender: Any) {
-    if let name = textField.text {
-      label.text = "Hello " + name
+    if let age = textField.text {
+      label.text = "You are " + age + " years old."
     }
   }
   
