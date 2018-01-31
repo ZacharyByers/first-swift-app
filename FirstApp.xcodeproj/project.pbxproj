@@ -14,6 +14,7 @@
 		6B128441201EADE4001F3E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B12843F201EADE4001F3E3E /* LaunchScreen.storyboard */; };
 		6B12844C201EADE4001F3E3E /* FirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B12844B201EADE4001F3E3E /* FirstAppTests.swift */; };
 		6B128457201EADE4001F3E3E /* FirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B128456201EADE4001F3E3E /* FirstAppUITests.swift */; };
+		6B12846520215298001F3E3E /* Baby_Hedgehog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B12846420215297001F3E3E /* Baby_Hedgehog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6B128452201EADE4001F3E3E /* FirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B128456201EADE4001F3E3E /* FirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITests.swift; sourceTree = "<group>"; };
 		6B128458201EADE4001F3E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B12846420215297001F3E3E /* Baby_Hedgehog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Baby_Hedgehog.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				6B12843D201EADE4001F3E3E /* Assets.xcassets */,
 				6B12843F201EADE4001F3E3E /* LaunchScreen.storyboard */,
 				6B128442201EADE4001F3E3E /* Info.plist */,
+				6B12846420215297001F3E3E /* Baby_Hedgehog.jpg */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B12846520215298001F3E3E /* Baby_Hedgehog.jpg in Resources */,
 				6B128441201EADE4001F3E3E /* LaunchScreen.storyboard in Resources */,
 				6B12843E201EADE4001F3E3E /* Assets.xcassets in Resources */,
 				6B12843C201EADE4001F3E3E /* Main.storyboard in Resources */,
